@@ -352,6 +352,7 @@ a {
     height: 2px;
     margin-left: 0;
     margin-right: 0;
+    color: rgb(229, 229, 229);
 }
 .line-small span{
     border: 2px solid rgba(0, 0, 0, .1);
@@ -406,6 +407,8 @@ a {
     background-color: #d5d0d0;
     margin: 10px;
     text-align: center;   
+    position: absolute;
+    bottom: 16px;
 }
 .img-fllow{
     height: 255px;
@@ -437,6 +440,7 @@ a {
     border-radius: 20px;
     font-size: 20px;
     background-color: #5da5e4;
+    text-align: center;
 }
 .img-lates{
     height: 181px;
@@ -444,7 +448,7 @@ a {
 }
 .lates{
     text-align: center;
-    padding: 20px;
+    padding: 0 0 50px 0;
 }
 .line-lates{
     background-color: rgba(225, 217, 217, 0.886);
@@ -455,7 +459,7 @@ a {
     width: 100%;
 }
 .lates h1{
-    font-size: 20px;
+    font-size: 25px;
 }
 .text-lates{
     position: relative; 
@@ -466,36 +470,50 @@ a {
     display: block;
     width: 50px; 
     height: 3px;
-    background-color:#777777;
+    background-color:rgb(229, 229, 229);
     position: absolute;
     bottom: -10px;
     left: 50%; 
     transform: translateX(-50%);
+    padding: 2px;
+  }
+  .line-latesban{
+    background-color: rgba(225, 217, 217, 0.886);
+    display: block;
+    height: 3px;
+    margin: 1em 0;
+    max-width: 30px;
+    max-width: 100%;
   }
 .text-browse{
     position: relative;
+    padding: 7px;
 }  
 .text-browse::after {
     content: '';
     display: block;
     width: 50px; 
     height: 3px;
-    background-color:#777777;
+    background-color:rgb(229, 229, 229);
     position: absolute;
     bottom: -10px; 
     left: 50%; 
     transform: translateX(-50%);
+    margin-bottom: 8px;
   }
 .text-span{
     padding: 20px;
 }  
 .img-text{
-    padding: 20px;
+    padding-top: 20px;
     display: flex;
 }
 .text-fl p{
     text-transform: uppercase;
     font-size: 15px;
+    padding: 10px 0 0 0;
+    margin: 0;
+    text-align: left;
 }
 .star-lates{
  left: 0;    
@@ -513,6 +531,7 @@ a {
     display: block;
     height: 0.5px;
     max-width: 75%;
+    margin-bottom: 10px;
 }
 .old-lates{
     text-decoration: line-through;
@@ -520,6 +539,7 @@ a {
 }
 .special{
     display: flex;
+    width: 100px;
 }
 .star-lates{
     display: flex;
