@@ -11,14 +11,14 @@ var productList = [
     },
     {
         name: "jeanmaker tee lee jean 2",
-        image: "./images/p2.jpeg",
+        image: "./images/co1.jpeg",
         oldprice: "$19",
         newprice: "$15",
         name1:"men"
     },
     {
         name: "jeanmaker tee lee jean 3",
-        image: "./images/p3.jpeg",
+        image: "./images/prod1.jpeg",
         oldprice:"$19",
         newprice: "$15",
         name1:"top"
